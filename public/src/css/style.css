@@ -1,0 +1,35 @@
+h1{
+    font-family: roboto;
+    color:#ffafaa;
+}
+#azul{
+    color: brown;
+}
+h1.azul{
+    color: blue;
+} 
+/*
+* botones
+*/
+.btn{
+    height: 45px;
+    border: .6px #bcbcbc solid;
+    background: #ffffff;
+    border-radius:4px;
+    padding: 12px;
+    /*box-shadow: 10px -5px rgba(149, 149, 130, 0.287);*/
+}
+.btn:hover{
+
+    background: #bcbcbc;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn-primary{
+    background: #64b942;
+    color: #fff;
+}
+.btn-primary:hover{
+    background: #8091ad;  
+    color: #fff;  
+}
